@@ -1,17 +1,222 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dieu Merci - Portfolio</title>
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
 </head>
-
 <body>
+    <!-- Barre de Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#accueil">Dieu Merci</a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#accueil" class="nav-link">Accueil</a>
+                <a href="#apropos" class="nav-link">À Propos</a>
+                <a href="#competences" class="nav-link">Compétences</a>
+                <a href="#projets" class="nav-link">Projets</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </div>
+            <div class="nav-toggle" id="nav-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
 
+    <!-- Section Accueil -->
+    <section id="accueil" class="section">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Je suis <span class="highlight">Dieu Merci</span></h1>
+                <p class="hero-subtitle">Développeur Web Frontend & Backend</p>
+                <p class="hero-description">
+                    Passionné par la création d'expériences web modernes, responsives et dynamiques.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projets" class="btn btn-primary">Voir mes projets</a>
+                    <a href="#contact" class="btn btn-secondary">Me contacter</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="avatar">
+                    <i class="fas fa-code fa-6x"></i>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section À Propos -->
+    <section id="apropos" class="section">
+        <div class="container">
+            <h2 class="section-title">À Propos de Moi</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Développeur web passionné, spécialisé dans les technologies frontend et backend modernes. 
+                        Je crée des interfaces utilisateur intuitives et responsives avec HTML, CSS et JavaScript, 
+                        et j'utilise PHP pour développer des fonctionnalités dynamiques.
+                    </p>
+                    <div class="about-info">
+                        <div class="info-item">
+                            <strong>Nom :</strong> Dieu Merci
+                        </div>
+                        <div class="info-item">
+                            <strong>Email :</strong> dieumerciurombi@gmail.com
+                        </div>
+                        <div class="info-item">
+                            <strong>Localisation :</strong> Butembo, RDC
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Compétences -->
+    <section id="competences" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <i class="fab fa-html5 fa-3x"></i>
+                    <h3>HTML5</h3>
+                    <p>Structure sémantique et accessible</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-css3-alt fa-3x"></i>
+                    <h3>CSS3</h3>
+                    <p>Design moderne et responsive</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-js fa-3x"></i>
+                    <h3>JavaScript</h3>
+                    <p>Interactivité et dynamisme</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-php fa-3x"></i>
+                    <h3>PHP</h3>
+                    <p>Développement backend et logique serveur</p>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-bootstrap fa-3x"></i>
+                    <h3>Bootstrap</h3>
+                    <p>Framework CSS responsive</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Projets -->
+    <section id="projets" class="section">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-laptop-code fa-4x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Site Portfolio</h3>
+                        <p>Portfolio personnel responsive avec design moderne</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-shopping-cart fa-4x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Site E-commerce</h3>
+                        <p>Plateforme de vente en ligne avec panier dynamique</p>
+                        <div class="project-tech">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>JS</span>
+                            <span>PHP</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-image">
+                        <i class="fas fa-users fa-4x"></i>
+                    </div>
+                    <div class="project-content">
+                        <h3>Application de Gestion</h3>
+                        <p>Système de gestion avec interface administrateur</p>
+                        <div class="project-tech">
+                            <span>PHP</span>
+                            <span>MySQL</span>
+                            <span>JS</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Section Contact -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h3>Restons en contact</h3>
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>dieumerciurombi@gmail.com</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+243 82 446 1621</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Butembo, République Démocratique du Congo</span>
+                    </div>
+                    <div class="social-links">
+                        <h4>Suivez-moi sur :</h4>
+                        <div class="social-icons">
+                            <a href="https://www.facebook.com/JakisaUrombiDieumerci" class="social-link" target="_blank">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="https://t.me/Jakisadieumerci" class="social-link" target="_blank">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="https://wa.me/243824461621" class="social-link" target="_blank">
+                                <i class="fab fa-whatsapp"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <form class="contact-form">
+                    <h3>Envoyez-moi un message</h3>
+                    <input type="text" placeholder="Votre nom" required>
+                    <input type="email" placeholder="Votre adresse email" required>
+                    <textarea placeholder="Votre message..." rows="5" required></textarea>
+                    <button type="submit" class="btn btn-primary">Envoyer le message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2025 Dieu Merci. Tous droits réservés.</p>
+            <p class="footer-sub">Développeur Web - Butembo, RDC</p>
+        </div>
+    </footer>
 
     <script src="script.js"></script>
 </body>
-
 </html>
